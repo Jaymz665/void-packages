@@ -1,7 +1,7 @@
 # Template file for 'gnome-initial-setup'
 pkgname=gnome-initial-setup
-version=44.0
-revision=2
+version=45.4
+revision=1
 build_style=meson
 configure_args="-Dparental_controls=disabled -Dsystemd=false"
 hostmakedepends="pkg-config glib-devel gettext"
@@ -13,9 +13,9 @@ makedepends="NetworkManager-devel accountsservice-devel libglib-devel
  pango-devel libadwaita-devel geocode-glib-devel"
 depends="iso-codes ibus-gtk4"
 short_desc="GNOME initial setup"
-maintainer="Orphaned <orphan@voidlinux.org>"
+maintainer="Michal Vasilek <michal@vasilek.cz>"
 license="GPL-2.0-or-later"
 homepage="https://wiki.gnome.org/Design/OS/InitialSetup"
 changelog="https://gitlab.gnome.org/GNOME/gnome-initial-setup/-/raw/master/NEWS"
 distfiles="${GNOME_SITE}/gnome-initial-setup/${version%%.*}/gnome-initial-setup-${version}.tar.xz"
-checksum=593cfc6dc8f82a98671b94c035b97dbe88ef56e708780b2ad1d2324e4d04bbff
+checksum=ad3cc820a0c9ad32d88033122e7fc067e6a32d1f3d3fe4358f1550eac6a5200d
